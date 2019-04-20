@@ -11,10 +11,10 @@ import org.springframework.context.annotation.Bean;
  * Created by rookiefly on 2017/7/13.
  */
 @SpringBootApplication
-public class MainApplication {
+public class PrometheusConsulApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MainApplication.class, args);
+        SpringApplication.run(PrometheusConsulApplication.class, args);
     }
 
     @Bean

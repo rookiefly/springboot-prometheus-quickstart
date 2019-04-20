@@ -24,9 +24,9 @@ public class PrometheusConsulRegister {
     @Value("${server.port}")
     private int port = 9000;
 
-    public static final String SERVICE_NAME = "springboot-quickstart-web";
+    public static final String SERVICE_NAME = "springboot-prometheus-quickstart-web";
 
-    public static final String SERVICE_ID = "springboot-quickstart-web-";
+    public static final String SERVICE_ID = "springboot-prometheus-quickstart-web-";
 
     @PostConstruct
     private void init() {
